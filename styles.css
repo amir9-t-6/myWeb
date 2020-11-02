@@ -1,0 +1,634 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.wrapper-main {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    width: calc(100% - 30px);
+    height: 60px;
+    padding: 0 15px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    background-color: #808080;
+}
+
+.nav-header-main {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo {
+    width: 48px;
+    padding-right: 20px;
+}
+
+.nav-header-main img {
+    height: 100%;
+}
+
+.nav-header-main ul {
+    height: 100%;
+}
+
+.nav-header-main ul li {
+    list-style: none;
+    float: left;
+    height: 100%;
+}
+
+.nav-header-main ul li a {
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+    border-radius: 6px;
+    line-height: 48px;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.header-login {
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-login form {
+    height: 100%;
+}
+
+.header-login form input {
+    height: 100%;
+    width: 160px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F6F6F6;
+    float: left;
+    margin-left: 8px;
+    font-family: arial;
+}
+
+.header-login form button {
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    margin-left: 8px;
+    font-family: arial;
+    font-size: 13px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-signup {
+    height: 100%;
+    width: 70px;
+    padding: 0 6px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 36px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main {
+    padding-top: 20px;
+}
+
+.section-default {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #FFF;
+}
+
+.login-status {
+    text-align: center;
+    font-size: 26px;
+    font-family: arial;
+    color: #111;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    font-family: arial;
+    color: #111;
+}
+
+/* signup.php */
+
+.form-signup {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 200px;
+}
+
+.form-signup input {
+    width: calc(100% - 30px);
+    height: 30px;
+    padding: 0 15px;
+    margin-bottom: 6px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    background-color: #F6F6F6;
+    float: left;
+    font-family: arial;
+}
+
+.form-signup button {
+    display: block;
+    height: 40px;
+    padding: 0 10px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    font-family: arial;
+    font-size: 13px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+.signuperror {
+    padding-top: 14px;
+    font-family: arial;
+    font-size: 16px;
+    color: red;
+    text-align: center;
+}
+
+.signupsuccess {
+    padding-top: 14px;
+    font-family: arial;
+    font-size: 16px;
+    color: green;
+    text-align: center;
+}
+
+/*container section */
+.container {
+    min-height:500px;
+    border-radius:5px 5px 0 0;
+}
+.container{
+    background:#CECFD0;
+    width:920px;
+    margin: auto;
+    padding:20px;
+}
+.container-2{
+    display: flex;
+    Justify-content: Space-between;
+}
+
+.container .phone-number{
+    display: flex;
+}
+
+.container .mail-img{
+    display: flex;
+}
+
+.mail-img img, .phone-pic {
+    Margin-left: 5px;
+
+}
+
+.contacts-container .email-container .mail-img img{
+    height: 35px;
+    width: 35px;
+}
+
+.mail-img p{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.phone-pic img{
+    height: 35px;
+    width:  35px;
+
+}
+
+.phone-number p {
+    margin-top: 13px;
+    padding-right: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contacts-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.profile-container{
+    display: flex;
+}
+
+
+
+.profile-container .profile-img{
+    margin-bottom: 20px;
+    margin-right: 8px;
+}
+
+
+.name p{
+
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px;
+}
+
+.name p:nth-child(1){
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.location{
+    display: flex;
+}
+
+.location p{
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.location-pic img{
+    height: 35px;
+    width: 35px;
+}
+
+
+
+/*Grid Section */
+
+.GridWrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.GridWrapper > div{
+    background-color: #eee;
+    padding: 1em;
+}
+
+.GridWrapper > div:nth-child(odd){
+    background:#ddd;
+}
+
+.education .computer .header{
+
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.goals .goals1 .goals-title{
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.goals p {
+    margin-top: 5px;
+
+}
+
+.Work .workExpirence .workExpirenceP {
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Achievement .Achievement1 .AchievementP{
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.languages .Languages1 .LanguagesP{
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.Interests .Interests1 .InterestsP{
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.GridWrapper .computer{
+    display: flex;
+
+}
+
+.computer img{
+    height: 50px;
+    width:  55px;
+}
+
+.GridWrapper .computer img {
+
+    margin-right: 35px;
+    margin-bottom: 5px;
+}
+
+.GridWrapper .goals1{
+
+    display: flex;
+}
+
+.GridWrapper .goals img{
+    height: 50px;
+    width:  55px;
+}
+
+.goals .goals1 .goals-title{
+
+    margin-left: 35px;
+}
+
+.GridWrapper .workExpirence{
+    display: flex;
+}
+
+.workExpirence img{
+    height: 50px;
+    width:  55px;
+}
+
+.Work .workExpirence .workExpirenceP{
+    margin-left: 35px;
+}
+
+.GridWrapper .Achievement1{
+    display: flex;
+}
+
+.Achievement1 img{
+
+    height: 50px;
+    width:  55px;
+}
+
+.Achievement .Achievement1 .AchievementP{
+    margin-left: 35px;
+}
+
+
+.GridWrapper .Languages1{
+
+    display: flex;
+}
+
+.Languages1 img {
+    height: 50px;
+    width:  55px;
+}
+
+.languages .Languages1 .LanguagesP{
+
+    margin-left: 35px;
+}
+
+.GridWrapper .Interests1{
+
+    display: flex;
+}
+
+.Interests1 img{
+    height: 50px;
+    width:  55px;
+}
+
+.Interests .Interests1 .InterestsP{
+
+    margin-left: 35px;
+}
+
+/*===== Colores =====*/
+:root{
+    --first-color: #EAE9EB;
+    --second-color: #0E2431;
+}
+
+/*===== Margenes =====*/
+:root{
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 1rem;
+    --mb-5: 2.5rem;
+}
+
+
+/* My skills page */
+
+.bd-grid{
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+    font-family: 'Poppins', sans-serif;
+}
+.skills__container{
+    row-gap: 2rem;
+    text-align: center;
+
+}
+.skills__subtitle{
+    margin-bottom: var(--mb-2);
+}
+.skills__text{
+    margin-bottom: var(--mb-4);
+}
+.skills__data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.skills__icon{
+    font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: var(--first-color);
+}
+.skills__names{
+    display: flex;
+    align-items: center;
+}
+.skills__bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--first-color);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+}
+.skills__html{
+    width: 95%;
+}
+.skills__css{
+    width: 30%;
+}
+.skills__js{
+    width: 65%;
+}
+.skills__php{
+    width: 40%;
+}
+.skills__sql{
+    width: 30%;
+
+}
+.skills__img{
+    border-radius: .5rem;
+}
+
+:root{
+    --header-height: 3rem;
+    --font-semi: 600;
+}
+/*************************************************** contact page **************************************************/
+:root{
+    --font-color:#555;
+    --font-hover-color:orange;
+}
+.contact-layout{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 70vh;
+    margin-left: 170px;
+}
+
+.container3{
+    width:500px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+    padding:2em;
+    background-color:#fff;
+}
+.form-group{
+    margin-bottom:1.5em;
+    transition:all .3s;
+}
+.form-label{
+    font-size:.75em;
+    color:var(--font-color);
+    display:block;
+    opacity:0;
+    transition: all .3s;
+    transform:translateX(-50px);
+}
+.form-control{
+    box-shadow:none;
+    border-radius:0;
+    border-color:#ccc;
+    border-style:none none solid none;
+    width:100%;
+    font-size:1.25em;
+    transition:all .6s;
+}
+.form-control::placeholder{
+    color:#aaa;
+}
+.form-control:focus{
+    box-shadow:none;
+    border-color:var(--font-hover-color);
+    outline:none;
+}
+.form-group:focus-within{
+    transform:scale(1.1,1.1);
+}
+
+.form-control:invalid:focus{
+    border-color:red;
+}
+.form-control:valid:focus{
+    border-color:green;
+}
+
+.btn{
+    background: 0 0 #fff;
+    border:1px solid #aaa;
+    border-radius:3px;
+    color:var(--font-color);
+    font-size:1em;
+    padding:10 50px;
+    text-transform:uppercase;
+}
+.btn:hover{
+    border-color:var(--font-hover-color);
+    color:var(--font-hover-color);
+}
+textarea{
+    resize:none;
+}
+
+
+
+.focused > .form-label{
+    opacity:1;
+    transform:translateX(0px);
+
+}
+
+
+
+
+
+
+
